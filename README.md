@@ -7,7 +7,7 @@ Basic commads to run on AWS.
 
 To use forever.js go to source directory and type:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; forever start server.js
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sudo forever start server.js
 
 Single Runs 
 
