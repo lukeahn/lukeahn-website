@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+  <html lang="en" ng-app="app">
+  <head>
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive2.css" media="screen and (max-width: 1200px)">
+  <link rel="stylesheet" type="text/css" href="css/responsive3.css" media="screen and (max-width: 900px)">
+
+
+ 
+
+    <title>Luke Ahn | Narrative Portfolio </title>
+  </head>
+
+  <body>
+<!-- ///home section -->
+  	 <section id="home">
+	 <div class="fixed-bg">
+		<div class ="cover-text">
+	        <p>A Software Engineer <br/> Currently pursuing Master's in CS at Cornell Tech</p>
+	   	</div>
+	</div>
+
+  	<div data-spy="affix" id="dot-nav">
+		<ul>
+	      <li class="awesome-tooltip active" title="Home"><a href="#home"></a></li>
+	      <li class="awesome-tooltip" title="Timeline"><a href="#timeline"></a></li>
+	      <li class="awesome-tooltip" title="Experiences"><a href="#work"></a></li>
+	      <li class="awesome-tooltip" title="Projects"><a href="#projects"></a></li>
+		  <li class="awesome-tooltip" title="Certifications"><a href="#certifications"></a></li>
+	      <li class="awesome-tooltip" title="Contact"><a href="#contact"></a></li>
+	    </ul>
+	</div>
+
+
+	<div class="nav" ng-controller="ScrollCtrl"><div class="section-inner">
+		<ul class="clearfix">
+			<li><a href="#home" ng-click="gotoElement('home')">Home</a></li>
+			<li><a href="#timeline" ng-click="gotoElement('timeline')">Timeline</a></li>
+			<li><a href="#work" ng-click="gotoElement('work')">Work Experiences</a></li>
+			<li><a href="#projects" ng-click="gotoElement('projects')">Projects</a></li>
+			<li><a href="#certifications" ng-click="gotoElement('certifications')">Certifications</a></li>
+			<li><a href="#contact" ng-click="gotoElement('contact')">Contact</a></li>
+
+		</ul>
+	</div> </div>
+
+
+   </section>
+
+
+
+
+
+<!-- ///timeline section -->
+	<section id="timeline">
+      		<div class="title"><h1>LUKE AHN</h1></div>
+		
+		<div class="borders custom-row4">
+      		<div class="fourty-percent">
+      			<img id="profile-pic" src="img/lukeahn1.jpg">
+      		</div>
+	      	<div class="sixty-percent">		
+	      		<h3>Current Job</h3>
+		         		<p>Business System Analyst at <b>Techedge USA </b></p>
+				<h3>Past Experiences</h3>
+		         		<p>Research Assistant at <b>Northwestern University ESP Lab</b></p>
+		         		<p style="padding-top:1%;">Management Consulting Intern at <b>A.T. Kearney</b></p>
+			    <h3>Education</h3>
+					<p>Bachelors of Science in <b>Electrical and Electronics Engineering</b> and a minor degree in <b>Computer Science</b> from <b>Northwestern University</b></p> 
+				<h3>Additional Info</h3>
+					<p>You can find more information about me below</p>
+			</div>
+		</div>
+
+
+
+
+
+	 	<div class="title"><h1>TIMELINE</h1></div>
+ <div class="borders custom-row hulk2">
+	
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/butterfly-catcher.png">
+      			</div>
+     
+    			<div class="timeline-txt">			
+					<p><b>Age 0-9</b> Typical boyhood. Maybe, better not to explain.</p> 
+				</div>
+			</div>
+
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/saint-basils-cathedral.png">
+      			</div>
+     
+    			<div class="timeline-txt">			
+					<p><b>Age 10-14</b> Lived in Russia due to family business.</p> 
+				</div>
+			</div>
+
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/statue-of-liberty.png">
+      			</div>
+     
+    			<div class="timeline-txt">		
+     				
+					<p><b>Age 15-18</b> Moved to U.S. Pennsylvania to attend Kiski all boys boarding school.</p> 
+				
+				</div>
+			</div>
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/university.png">
+      			</div>
+     
+    			<div class="timeline-txt">		
+     				
+					<p><b>Age 18</b> Got accepted and started attending <b>Northwestern University McCormick College of Engineering.</b> </p> 
+				
+				</div>
+			</div>
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/management-consulting.png">
+      			</div>
+     
+    			<div class="timeline-txt">		
+     				
+					<p><b>Age 21</b> Worked at <b>A.T. Kearney </b>as a management consulting intern.</p> 
+				
+				</div>
+			</div>
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/soldier2.png">
+      			</div>
+     
+    			<div class="timeline-txt">		
+     				
+					<p><b>Age 22</b> Joined <b>Republic of Korea army</b> to serve as an interpreter and a signal corpsman.</p> 
+				
+				</div>
+			</div>
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/graduation.png">
+      			</div>
+     
+    			<div class="timeline-txt">		
+     				
+					<p><b>Age 24</b> Returned to Northwestern University to finish the senior year and graduated with a major degree in <b>Electrical and Electornics Engineering</b> and a minor degree in <b>Computer Science.</b></p> 
+				
+				</div>
+			</div>
+
+
+			<div class="borders custom-row2 hideme2">
+     			<div class="timeline-icons"> 
+     				<img src="img/64-icons/coding.png">
+      			</div>
+     
+    			<div class="timeline-txt">		
+     				
+					<p><b>Age 25+ </b> Joined <b>Techedge USA</b> as a system business analyst. More details about work experiences can be found in the next sections.</p> 
+				
+				</div>
+			</div>
+	</div>
+
+	</section>
+
+
+	
+	<section id="work">
+	 	<div class="title"><h1>WORK EXPERIENCES</h1></div>
+        <div><img class="desk-photo" src="img/desk-overview.jpg"></div>
+
+        <div class="borders custom-row3">
+  		<div class="fifty-percent">
+  			<img id="profile-pic" src="img/oraclehyperion.jpg">
+  		</div>
+  		<div class="fifty-percent2 hulk">		
+  		<h3>Oracle Hyperion Planning and Essbase</h3>
+         		<p style="padding-bottom:1%">Worked closely with FP&A and SG&A teams of a multi-billion global industrial equipment manufacturer to translate business needs into technical solutions.</p> 
+         		<p style="padding-bottom:1%">Implemented enterprise budgeting and forecasting with Oracle Hyperion Planning.</p> 
+         		<p style="padding-bottom:1%">The solution allowed the client to manage P&L, Causals, Supply Chain and Cash Flow globally. </p>
+         		<p style="padding-bottom:1%">Managed data loading, server audit, security, DB management, system enhancement, and troubleshooting.</p>
+		</div>
+		</div>
+
+
+		
+        <div class="borders custom-row3">
+  		<div class="fifty-percent hulk">
+  		<h3>Data Visualization</h3>
+         	<p style="padding-bottom:1%">Developed OBIEE and QlikView dashboards for data visualization and analytics.</p> 
+         	<p style="padding-bottom:1%">Managed full cycle of implementation - analysis, development, testing and UAT. </p>
+         	<p style="padding-bottom:1%">Delivered to the client OBIEE dashboards with 1000 graphs and tables for a direct CFO review from P&L, Supply Chain, and Causals (actual vs forecast & budget) data.</p>
+  		</div>
+  		<div class="fifty-percent2">	
+  			<img id="profile-pic" src="img/qlikview.png">	
+  		
+		</div>
+		</div>
+
+
+       <div class="borders custom-row3">
+  		<div class="fifty-percent">
+  			<img id="profile-pic" src="img/programming2.jpg">
+  		</div>
+  		<div class="fifty-percent2 hulk">		
+  		<h3>Web / Mobile Development</h3>
+         		<p style="padding-bottom:1%">Developed mobile and web applications (also the one you are seeing). </p>
+         		<p style="padding-bottom:1%">For web apps, I have experiences with the MEAN stack - MongoDB, Express, AngularJS and NodeJS. </p>
+         		<p style="padding-bottom:1%">For mobile apps, I used android SDK and Phonegap (Cordova) to build both Android native apps and hybrid apps. </p>
+         		<p style="padding-bottom:1%">Built 2 fully working applications from scratch and a couple of apps that gather data from smartphone sensors and run algorithms in real time. </p>
+         		<p style="padding-bottom:1%">More details are explained below under "Projects".</p>
+
+		</div>
+		</div>
+
+
+       <div class="borders custom-row3">
+  		<div class="fifty-percent hulk">
+  			<h3>Electronics</h3>
+         			<p style="padding-bottom:1%">Spent hours after hours analyzing electric circuits, signals and systems, and low level programming using C and Assembly.</p>
+         			<p style="padding-bottom:1%">Built many electonic prototypes such as a zapper, a sound amplifier, a binary calculator, a autonomous robot and a modular watch. </p>
+	   	
+  		</div>
+  		<div class="fifty-percent2">		
+  		<img id="profile-pic" src="img/electronics.jpg">
+		</div>
+		</div>
+    </section>
+
+
+    <!-- insert project -->
+    <section id="projects">
+    	<div class="title"><h1>PROJECTS</h1></div>
+    		<div style="padding-bottom:150px; padding-right:2%; padding-left:2%;" class="two-columns clearfix">
+			<div class="main hulk mobile-collapse">
+				
+				<h1>uCart</h1>
+				
+				<p class="hideme">The uCart is a device that focuses on improving a customer’s shopping experience with efficiency, access to a store’s data, and web connectivity. The device connects to any shopping cart and includes a touchscreen, barcode scanner, and credit card reader. A user of the uCart will reduce the overall time required for a shopping trip thanks to the self-checkout feature, which allows the shopper to scan items and pay for them without ever waiting at a checkout aisle. If a customer cannot easily find an item, the uCart can show where an item is located on a map.</p>
+				
+				<p class="hideme">An additional component of the uCart is a web application that runs on any computer or mobile device, which lets a shopper create a shopping list before reaching the store. This shopping list will sync with the cart device and display on the touchscreen upon checking in. Not only will the uCart provide a faster and more personal experience for shoppers, it will provide stores with data on their customers and advertising opportunities by collecting information about the types of products purchased and routes walked in the store. A store could use the data collected from the uCart to optimize store layout and promote certain items. Additionally, the mobile app will include a coupons section, so stores will be able to advertise products to customers.</p>
+				
+				<p class="hideme">The goal of the uCart is to make the shopping experience smoother for customers, so that they will make more purchases more quickly in the store, as well as to provide stores a way to learn about shopper’s spending habits.</p>
+
+				<p class="hideme"><b>https://github.com/benmel/uCart-App</b></p>
+				
+			</div>
+			
+			<!-- side -->
+			<div class="side mobile-collapse">
+				
+				<!-- info-box -->
+				<div class="hideme">
+					<img class="img-size" src="img/uCart1.jpg"/>
+
+				</div><!--/info-box-->
+				
+				<div class="hideme">
+					<img class="img-size" src="img/uCart3.jpg"/>
+
+				</div><!--/info-box-->
+				
+				<div class="hideme">
+					<img class="img-size" src="img/uCart2.jpg"/>
+
+				</div><!--/info-box-->
+				
+				
+			</div><!--/side-->
+			
+		</div><!--/two-columns-->
+		
+		<!-- thirds -->
+		<div class="thirds clearfix hulk">
+			
+			<!-- one-third -->
+			<div class="one-third mobile-collapse hideme">
+				<img class="img-size" src="img/robot1.png"/>
+				<h1>DC Competition</h1>
+				<p>Designed and built an autonomous robot with a team of 3 engineers to compete in the Northwestern Robotic Competition. Utilized H-bridges (motor control), ultra sound sensors (navigation), LED sensors (ground color detection), an Arduino (programming), laser sensors (target detection), laser cutters (body design). Programmed the robot with a 3 minutes flow chart sequence. Finished in the quarter-finals.</p>
+			</div><!--/one-third-->
+			
+			<!-- one-third -->
+			<div class="one-third one-third-second mobile-collapse hideme">
+				<img class="img-size" src="img/modular-watch2.png"/>
+				<h1>NU Modular Watch</h1>
+				<p>NU Modular Watch is a smart watch that aids research projects to gather health monitoring data in the wild. Nowadays, most of the health data are measured under controlled environments (i.e. hospitals). I and my partner have utilized latest micro-embedded systems with BLE (bluetooth low energy) technology to gather data from appropriate sensors and send the data to appropriate phones in real time. The key concept of NU modular watch is the use of "plug and play" sensors.</p>
+			</div><!--/one-third-->
+			
+			<!-- one-third -->
+			<div class="one-third one-third-last mobile-collapse hideme">
+				<img class="img-size" src="img/nurse-ipad.jpg" />
+				<h1>Project Cape Town</h1>
+				<p>Built a web application that educated nurses with limited training resources and no internet. Used HTML, AngularJS, CSS and localstorage (due to project requirement) to build a responsive application. Some of the key features were cases studies with real time feedback and time based quiz games.</p>
+				<p><b>https://github.com/eecs394-spr15/ProjectCapetown</b></p>
+			</div><!--/one-third-->
+			
+		</div><!--/thirds-->
+		
+		<!-- two-columns -->
+		
+		
+	</div><!--/body-content-->
+        </section>
+
+
+    <section id="certifications">
+    	<div class="title"><h1>CERTIFICATIONS</h1></div>
+
+    	 <div class="borders custom-row">
+             <div class="twenty-percent"><img class="icon2" src="img/oracle-black.png"></div>
+           <div class="eighty-percent"><h2>Oracle Hyperion Planning 11 Certified Implementation Specialist</h2><p> An Oracle Hyperion Planning 11 Certified Implementation Specialist  has demonstrated the knowledge required to create a Planning Application, set up dimensions and currencies and exchange rates, create custom menus and data forms and create security filters.  Individuals who earn this certification are skilled in setting up account hierarchies, loading data, working with EPMA, and creating business rules. </p> <h5>Issued: <b>27 Feb 2016 </b>License#: <b>230731420HYPPLN11OPN</b> </h5></div>
+         </div>
+
+         <div class="borders custom-row">
+          <div class="twenty-percent"> <img class="icon2" src="img/oracle-red.png"></div>
+          				
+          <div class="eighty-percent">		<h2>Oracle Database 12c Administrator Certified Professional</h2>
+				<p>An Oracle Database 12c Administrator Certified Professional has demonstrated the abilities of top-performing database admins, including development/deployment of backup, recovery and Cloud computing.</p> <h5>Issued: <b>23 Jul 2015 </b>  License#: <b>230731420DBA12C</b></h5></div>
+			</div>
+
+		
+          
+          <div class="borders custom-row">
+          <div class="twenty-percent"> <img class="icon2" src="img/oracle-red.png"></div>
+          			
+          <div class="eighty-percent">		<h2>Oracle Database 10g Administrator Certified Professional - Version Retired</h2>
+				<p>An Oracle Database 10g Administrator Certified Professional has demonstrated the abilities of top-performing database admins, including development/deployment of backup, recovery and Cloud computing.</p> 
+				<h5>Issued: <b>21 Jan 2014 </b>  License#: <b>230731420DBA10G</b></h5></div>
+		</div>
+
+		 
+          
+        </section>  
+
+
+        <section id="contact">
+
+        	<div class="title"><h1>CONTACT</h1></div>
+        		<div class="thirds clearfix">
+			
+			<!-- one-third -->
+			<div class="one-third mobile-collapse hideme">
+				<img class="icon" src="img/Chicago2.png"/>
+				<p class="align-center icon-title">Where To Find Me</p>
+				<p class="align-center icon-text">I am currently working in a software/IT consulting firm in downtown <b>Chicago</b>. If you live close by and want to talk to me via person, feel free to contact me. </p>
+			</div><!--/one-third-->
+			
+			<!-- one-third -->
+			<div class="one-third one-third-second mobile-collapse hideme">
+				<a href="https://www.linkedin.com/in/luke-ahn-32b00089?trk=hp-identity-photo" target="_blank"><img src="img/linkedin-icon.png" class="icon"></a>
+				<p class="align-center icon-title">Linked In Profile</p>
+				<p class="align-center icon-text">This button will lead you to my LinkedIn profile. </p>
+				
+			</div><!--/one-third-->
+			
+			<!-- one-third -->
+			<div class="one-third one-third-last mobile-collapse hideme">
+				<a href="mailto:lukeahn2013@u.northwestern.edu?Subject=Hello!&body=Your website is great!" target="_top"><img src="img/gmail-icon.png" class="icon"></a>
+				<p class="align-center icon-title">Email </p>
+				<p class="align-center icon-text">For any questions and direct inquiries, please contact me via <b> l u k e a h n 2 0 1 3 at u dot northwestern dot edu</b>. </p>
+			</div><!--/one-third-->
+			
+		</div><!--/thirds-->
+                  
+
+        </section>
+
+
+	<div class="footer">
+		<p>Copyright &copy; 2016 Luke Ahn </p>
+
+
+	<script src="js/jquery-2.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="js/infoController.js"></script>
+	<script src="js/experiment.js"></script>
+	<script src="js/hide.js"></script>
+
+    </body>
+
+    </html>
