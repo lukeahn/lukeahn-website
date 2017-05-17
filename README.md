@@ -7,23 +7,23 @@ Basic commads to run on AWS.
 
 To use forever.js go to source directory and type:
 
-  forever start server.js
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; forever start server.js
 
 Single Runs 
 
-  node server.js
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; node server.js
 
 To kill forever.js
   
-  forever stop 0 [or the process]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; forever stop 0 [or the process]
   
 To kill a hanging listener
 
-  sudo netstat -antlp 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sudo netstat -antlp 
   
-  sudo netstat -antlp | grep PID 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sudo netstat -antlp | grep PID 
   
-  sudo kill -9 PID
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sudo kill -9 PID
   
   
   
