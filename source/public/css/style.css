@@ -71,6 +71,7 @@ section {
   }
 
 
+
 div.twenty-percent {
   width: 20%;
   float:left;
@@ -112,7 +113,7 @@ div.fifty-percent2 {
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color: #E6E6FA;
+   background-color: #F5F5F5;
 }
 
 .title h1 {
@@ -343,7 +344,7 @@ div.one-third-last {
   vertical-align:bottom;
 }
 #dot-nav li.active, #dot-nav li:hover {
-  background-color: #8e44ad;
+  background-color: #FFFACD;
 }
 
 #dot-nav a {
@@ -404,3 +405,24 @@ div.nav ul li a:visited {
     opacity:0;
 }
 
+.custom-container
+{
+  padding-right:5%; 
+  padding-left:5%; 
+  padding-top:5%;
+}
+
+.custom-container-content
+{
+  height:auto%;
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:50px;
+  clear:both;
+  overflow: auto;
+/*  border-style: solid;
+  border-width: 5px;
+  border-color: red;*/
+  }
+}
