@@ -47,7 +47,9 @@ $(document).ready(function(){
 
           }
           
-        });   
+        });
+    $('#dot-nav ul').css("display","inline")
+    $('#dot-nav').fadeIn();
     }
 
     /* get clicks working */
@@ -65,6 +67,7 @@ $(document).ready(function(){
       
         return false;
     });
+
 
 /* end dot nav */
 });
