@@ -48,8 +48,7 @@ $(document).ready(function(){
           }
           
         });
-    $('#dot-nav ul').css("display","inline")
-    $('#dot-nav').fadeIn();
+
     }
 
     /* get clicks working */
@@ -70,4 +69,9 @@ $(document).ready(function(){
 
 
 /* end dot nav */
+});
+
+$(window).bind("load", function() {
+  $('#dot-nav ul').css("display","inline")
+  $('#dot-nav').fadeIn();
 });

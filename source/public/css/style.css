@@ -21,6 +21,7 @@ section {
 
 
 #dot-nav{    
+  display:none;
   right: 10px;
   top: 50%;
   margin-top: -50px;
@@ -29,7 +30,6 @@ section {
 }
 
 #dot-nav ul {
-  display:none;
   list-style: none;
   margin:0;
   padding: 0;
