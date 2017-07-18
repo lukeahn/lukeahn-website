@@ -1,66 +1,24 @@
-
-#dot-nav{    
-  right: 10px;
-  top: 50%;
-  margin-top: -50px;
-  height: 100px;
-  z-index: 999;
-}
-
-#dot-nav ul {
-  list-style: none;
-  margin:0;
-  padding: 0;
-}
-#dot-nav li {
-  position: relative;
-  background-color: #bdc3c7;
-  border:3px solid #bdc3c7;
-  border-radius: 15px 15px 15px 15px;
-  cursor: pointer;
-  padding: 5px;
-  height: 10px;
-  margin: 10px 10px 0px 0px;
-  margin-bottom: 15px;
-  width: 10px;
-  vertical-align:bottom;
-}
-#dot-nav li.active, #dot-nav li:hover {
-  background-color: #FFFACD;
-}
-
-#dot-nav a {
-  outline: 0;
-  vertical-align:top;
-  margin: 0px 0px 0px 25px;
-  position: relative;
-  top:-5px;
-}
-
 .cover-text {
   color: white;
-  padding-left: 20px;
-  padding-top: 20px;
-  min-height: 0px;
-  min-width: 0px;
+  padding-left: 50px;
+  padding-top: 100px;
+  min-height: 200px;
+  min-width: 400px;
 }
-.cover-text p{
 
+.cover-text p{
   font-size:15px;
 }
 
 .cover-text h1{
-
-  font-size:30px;
+  font-size:40px;
 }
-
 
 .title {
   height: 6em;
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color: #E6E6FA;
 }
 
 .title h1 {
@@ -143,23 +101,6 @@ div.nav ul li {
       overflow: auto;
   }
 
-.cust
-
-.awesome-tooltip + .tooltip > .tooltip-inner {
-    background-color: #8e44ad; 
-    color: #f5f5f5; 
-    border: 1px solid #8e44ad; 
-}
-.awesome-tooltip + .tooltip.left > .tooltip-arrow{
-    top:50%;
-    right:0;
-    margin-top:-5px;
-    border-top:5px solid transparent;
-    border-bottom:5px solid transparent;
-    border-left:5px solid #8e44ad;
-}
-
-
 @media screen and (max-width: 620px) {
 	
 	div.nav ul li {
@@ -213,52 +154,49 @@ section {
 }
 
 .fixed-bg {
-	/*display:none;*/
-  /*width: 100%;*/
-  height: auto;
-  background-image: url("");
+  min-height: 200px;
   content:url("../img/city4.jpg");
 }
 
 .cover-text {
   color: white;
-  padding-left: 20px;
-  padding-top: 20px;
-  min-height: 0px;
-  min-width: 0px;
+  padding-left: 100px;
+  padding-top: 100px;
+  min-height: 200px;
+  min-width: 400px;
 }
-.cover-text p{
 
-  font-size:15px;
+.cover-text p{
+  font-size:20px;
+  color:red;
 }
 
 .cover-text h1{
-
-  font-size:30px;
+  font-size:40px;
 }
 
-	div.nav ul li {
-		width: 50%;
-		font-size: 85%;
-	}
+div.nav ul li {
+	width: 50%;
+	font-size: 85%;
+}
 
 
-	
-	div.mobile-collapse {
-		width: auto;
-		float: none;
-		margin-right: 0;
 
-	}
-	
-	.hide-mobile {
-		display: none;
-	}
+div.mobile-collapse {
+	width: auto;
+	float: none;
+	margin-right: 0;
 
-	.custom-row{
-		  clear:both;
-		  overflow: auto;
-	}
+}
+
+.hide-mobile {
+	display: none;
+}
+
+.custom-row{
+	  clear:both;
+	  overflow: auto;
+}
 
 
 .hideme

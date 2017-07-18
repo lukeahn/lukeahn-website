@@ -19,44 +19,6 @@ section {
 
 }
 
-#dot-nav{    
-  right: 10px;
-  top: 50%;
-  margin-top: -50px;
-  height: 100px;
-  z-index: 999;
-}
-
-#dot-nav ul {
-  list-style: none;
-  margin:0;
-  padding: 0;
-}
-#dot-nav li {
-  position: relative;
-  background-color: #bdc3c7;
-  border:3px solid #bdc3c7;
-  border-radius: 15px 15px 15px 15px;
-  cursor: pointer;
-  padding: 5px;
-  height: 10px;
-  margin: 10px 10px 0px 0px;
-  margin-bottom: 35px;
-  width: 10px;
-  vertical-align:bottom;
-}
-#dot-nav li.active, #dot-nav li:hover {
-  background-color: #FFFACD;
-}
-
-#dot-nav a {
-  outline: 0;
-  vertical-align:top;
-  margin: 0px 0px 0px 25px;
-  position: relative;
-  top:-5px;
-}
-
 .hulk p {
 font-size: 1em;
 }
@@ -171,7 +133,6 @@ div.fifty-percent2 {
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color: #E6E6FA;
 }
 
 .title h1 {
@@ -185,7 +146,6 @@ div.fifty-percent2 {
 .fixed-bg {
   background-image: url("../img/city1.jpg");
   width: 100%;
-  /*height: auto;*/
   min-height: 500px;
   background-position: center; 
   background-attachment: fixed;
@@ -194,6 +154,7 @@ div.fifty-percent2 {
   background-size: cover;
 }
 
+
 .cover-text {
   color: white;
   padding-left: 100px;
@@ -201,13 +162,12 @@ div.fifty-percent2 {
   min-height: 200px;
   min-width: 400px;
 }
-.cover-text p{
 
+.cover-text p{
   font-size:20px;
 }
 
 .cover-text h1{
-
   font-size:40px;
 }
 
@@ -351,27 +311,6 @@ div.one-third-last {
   margin-right: -50%;
   transform: translate(-50%, -50%);*/
 }
-
-/*footer*/
-
-
-
-
-.awesome-tooltip + .tooltip > .tooltip-inner {
-    background-color: #8e44ad; 
-    color: #f5f5f5; 
-    border: 1px solid #8e44ad; 
-}
-.awesome-tooltip + .tooltip.left > .tooltip-arrow{
-    top:50%;
-    right:0;
-    margin-top:-5px;
-    border-top:5px solid transparent;
-    border-bottom:5px solid transparent;
-    border-left:5px solid #8e44ad;
-}
-
-
 
 .nav {
   background-color: #E9E9E9;
