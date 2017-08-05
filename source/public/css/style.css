@@ -61,7 +61,6 @@ section {
 }
 
 .custom-row{
-  height:auto%;
   width:70%;
   margin-left: auto;
   margin-right: auto;
@@ -71,12 +70,11 @@ section {
   }
 
 .custom-row2{
-
+  height:120px;
   padding-top:2%;
   padding-bottom: 8%;
   padding-left: 10%;
   padding-right: 10%;
-  /*overflow: auto;*/
   }
 .custom-row3{
 
@@ -188,18 +186,17 @@ div.fifty-percent2 {
 }
 
 /*timeline*/
-#profile-pic {
+.profile-pic {
   width: 100%;
   height: 100%;
 }
 
 .timeline-icons {
+  height:90px;
+  width:90px;
   display:block;
-  height: 64px;
-  width: 64px;
   float:left;
   clear:both;
-  padding-right:10%;
 
 }
 
@@ -418,9 +415,4 @@ div.nav ul li a:visited {
   margin-right: auto;
   padding-top:50px;
   clear:both;
-  overflow: auto;
-/*  border-style: solid;
-  border-width: 5px;
-  border-color: red;*/
-  }
 }
